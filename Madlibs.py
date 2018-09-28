@@ -17,4 +17,3 @@ while go:
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"
-

@@ -1,15 +1,19 @@
 from getInput import *
 
 def playMadlibs():
-    friend1 = getWord("Enter a Name: ")
-    numAnimals = getNumber("Enter a number: ", 2, 10)
-    animals1 = getWord("Enter a pluaral animal name: ")
+    place1 = getWord("Enter a place: ")
+    friend1 = getWord ("Enter a friend name: ")
+    numClowns = getNumber("Enter a number: ", 2, 20)
+    clowns1 = getWord("Enter a pluaral clown name: ")
+    place2 = getWord ("Enter a place inside place1: ")
+    
     
     output = ""
-    output += "One day I was walking with my friend, " + friend1
-    output += ". Suddenly " + friend1
-    output += " said that they saw " + numAnimals + " " + animals1
-    
+    output += "One day I was walking through " + place1
+    output += ". Suddenly " + place1
+    output += " started filling up with " + numClowns + " " + clowns1
+    output += ". " + friend1
+    output += " and I ran and hid in " + place2 + "" "."
     
     
     
