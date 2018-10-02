@@ -15,7 +15,7 @@ def getMenuInput():
               response = "Q"
               goodInput = True              
         else:
-            print "Please make a valid choice"
+            print "Ha! You thought you could escape us! Now the Clowns are coming after you, best bet is to finish the story!"
     return response
     
 def getWord(prompt):
@@ -48,8 +48,40 @@ def getNumber(prompt, minNumber, maxNumber):
 
 def isSwear(word):
     swearList = ["poop",
-                "piss"
-                ]
+                "piss" ,
+                "Fuck" ,
+                "shit" ,
+                "pussy" ,
+                "fuck" ,
+                "Pussy" ,
+                "Shit" ,
+                "Crap" ,
+                "crap" ,
+                "Fucker" ,
+                "fucker" ,
+                "cunt" ,
+                "Cunt" ,
+                "Bitches" ,
+                "bitch" ,
+                "Bitch" ,
+                "FuCk" ,
+                "fUcK" ,
+                "FUCK" ,
+                "nigger" ,
+                "NiGgEr" ,
+                "Nigga" ,
+                "nigga" ,
+                "minecraft" ,
+                "porn" ,
+                "faggot" ,
+                "Faggot" ,
+                "fAgGoT" ,
+                "Mother Fucker" ,
+                "Ass" ,
+                "Nazi" ,]
+                
+                
+                
     if word in swearList:
         return True
     else:
