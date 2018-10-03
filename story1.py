@@ -18,9 +18,9 @@ def playMadlibs():
     output += " started filling up with " + numClowns + " " + clowns1
     output += ". " + friend1
     output += " and I ran and hid in " + place2 + "" "."
-    output += " all the " + clowns1 + " started running in our direction. "
+    output += " All the " + clowns1 + " started running in our direction. "
     output += friend1 + " pulled out a " + object1 + " and started " + verb1
     output += ". " 
-    output += " the " " " + clowns1 + " " " broke into " " " + place2 + " " " and the " " " + object1 + " " "rendered useless."
+    output += " The " " " + clowns1 + " " " broke into " " " + place2 + " " " and the " " " + object1 + " " "rendered useless."
     output += "to escape I had to " " "+ verb2 + " " "out of" " "+ place2 + " " " and " " "+ verb3 + " " "to saftey" 
     return output

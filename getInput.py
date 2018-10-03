@@ -2,10 +2,14 @@ def getMenuInput():
     goodInput = False
     while not goodInput:
         response = raw_input(" > ")
-        if (response == "1" 
+        if (response == "C" 
             or response == "One"):
             response = "1"
             goodInput = True
+        if (response == "2"
+            or response == "Two"):
+            response = "2"
+            goodInput = True    
         elif (response == "Q"
               or response == "Quit"
               or response == "q"
@@ -25,7 +29,7 @@ def getWord(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "Watch your language!"
+            print "The clowns won't like those words!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
