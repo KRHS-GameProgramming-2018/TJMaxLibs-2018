@@ -9,7 +9,11 @@ def getMenuInput():
         if (response == "2"
             or response == "Two"):
             response = "2"
-            goodInput = True    
+            goodInput = True
+        if (response == "3"
+            or response == "Three"):
+            response = "3"
+            goodInput = True
         elif (response == "Q"
               or response == "Quit"
               or response == "q"
@@ -82,7 +86,10 @@ def isSwear(word):
                 "fAgGoT" ,
                 "Mother Fucker" ,
                 "Ass" ,
-                "Nazi" ,]
+                "Nazi" ,
+                "cocksucker" ,
+                "tits" ,
+                "motherfucker" ,]
                 
                 
                 
