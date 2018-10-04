@@ -19,8 +19,6 @@ while go:
         print story1.playMadlibs()
     if response == "2":
         print story2.playMadlibs()
-    if response == "3":
-        print story3.playMadlibs()
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"

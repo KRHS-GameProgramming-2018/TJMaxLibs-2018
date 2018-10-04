@@ -11,13 +11,5 @@ def playMadlibs():
     worker2 = getWord ("Enter another worker name: ")
     civilian1 = getWord ("Enter a civilian name: ")
     
-       output = ""
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
+    output = "" 
     return output
