@@ -17,7 +17,7 @@ def showMenu():
     output += "|Main Menu:                           |\n"
     output += "|   1) The clowns strike back!        |\n"
     output += "|   2) You are the clown!             |\n"
-    output += "|   3) You are the manager at store!  |\n"
+    output += "|   3) You are the manager of store!  |\n"
     output += "|   C) Chicken Out? Click C.          |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
