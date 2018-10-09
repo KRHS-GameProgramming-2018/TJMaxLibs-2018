@@ -17,7 +17,11 @@ def getMenuInput():
               or response == "X"
               or response == "Exit"):
               response = "Q"
-              goodInput = True              
+              goodInput = True        
+        if (response == "3"
+            or response == "Three"):
+            response = "3"
+            goodInput = True
         else:
             print "Ha! You thought you could escape us! Now the Clowns are coming after you, best bet is to finish the story!"
     return response
