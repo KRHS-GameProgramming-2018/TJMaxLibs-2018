@@ -8,7 +8,7 @@ def playMadlibs():
     verb1 = getWord ("Enter a verb: ")
     object1 = getWord ("Enter an object: ")
     verb2 = getWord ("Enter a verb ending in ing: ")
-    worker2 = getWord ("Enter another worker name: ")
+    worker2 = getWord ("Enter a boy worker name: ")
     civilian1 = getWord ("Enter a civilian name: ")
     
     output = "" 
