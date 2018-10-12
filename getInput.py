@@ -86,7 +86,17 @@ def isSwear(word):
                 "fAgGoT" ,
                 "Mother Fucker" ,
                 "Ass" ,
-                "Nazi" ]
+                "Nazi" ,
+                "Choad",
+                "Cock",
+                "Butt Fucker",
+                "Fuck Me Backwards",
+                "Damn",
+                "Queer",
+                "Ligma",
+                "Ninja",
+                "Suckma",
+                "Fuckma", ]
                 
                 
                 
