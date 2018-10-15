@@ -7,7 +7,7 @@ def playMadlibs():
     clowns1 = getWord("Enter a pluaral clown name: ")
     place2 = getWord ("Enter a place inside place1: ")
     object1 = getWord ("Enter an object: ")
-    verb1 = getWord ("Enter an verb ending in ing: ")
+    verb1 = getWord ("Enter a verb ending in ing: ")
     verb2 = getWord ("Enter a verb: ")
     verb3 = getWord ("Enter a verb: ")
     
