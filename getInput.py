@@ -53,6 +53,18 @@ def getNumber(prompt, minNumber, maxNumber):
         
             
     return word
+    
+def getItem(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input (prompt)
+        if not isSwear(word):
+            goodInput = True
+            for charecter in word:
+                if charecter not in words:
+                    print "not an elidgable"
+                    goodInput = False
+                    break
 
 def isSwear(word):
     swearList = ["poop",
