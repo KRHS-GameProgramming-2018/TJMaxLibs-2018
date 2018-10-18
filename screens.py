@@ -20,6 +20,8 @@ def showMenu():
     output += "|   2) You are the clown!             |\n"
     output += "|                                     |\n"
     output += "|   3) You are the manager of store!  |\n"
+              "|                                     |\n"
+              "|      Press 1,2,3 to be safe!        |\n"
     output += "|                                     |\n"
     output += "|   C) Chicken Out? Click C.          |\n"
     output += "|                                     |\n"
