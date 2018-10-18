@@ -172,7 +172,14 @@ def isSwear(word):
                 "prostitue",
                 "cornhole",
                 "fuck me food" 
-                "ham wallet" ]
+                "ham wallet" 
+                "testicle",
+                "right testicle",
+                "left testicle",
+                "left nut",
+                "nutted",
+                "right nut",
+                "nuts"   ]
                 
                 
                 
