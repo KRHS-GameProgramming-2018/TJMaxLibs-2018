@@ -188,11 +188,14 @@ def isSwear(word):
 
 
 def isPlural(word):
-    plurallist = 
-                
-                
-                
-    if word in swearList:
-        return True
-    else:
-        return False
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+           goodInput = True
+        else:
+            print "The clowns won't like those words!"
+        if word[-1] != "s":
+            goodInput = False
+            print "Word must end in s"
+    return word
