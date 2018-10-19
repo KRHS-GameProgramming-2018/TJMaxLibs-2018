@@ -55,7 +55,7 @@ def getNumber(prompt, minNumber, maxNumber):
     return word
     
 def getPlural(prompt):
-    goodInput: False
+    goodInput = False
     while not goodInput:
         word = raw_input(prompt)
         
@@ -80,6 +80,7 @@ def isSwear(word):
                 "FuCk" ,
                 "fUcK" ,
                 "FUCK" ,
+                "Nigger",
                 "nigger" ,
                 "NiGgEr" ,
                 "Nigga" ,
@@ -184,7 +185,7 @@ def isSwear(word):
                 "left nut",
                 "nutted",
                 "right nut",
-                "nuts"   ]
+                "nuts" ]
 
 
 def isPlural(word):
