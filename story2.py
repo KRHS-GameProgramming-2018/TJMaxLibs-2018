@@ -9,7 +9,7 @@ def playMadlibs():
     civilian1 = getWord ("Enter a civilian name:")
     place2 = getWord ("Enter a place inside place1:")
     name1 = getWord ("Enter a name for yourself:")
-    object1 = getWord ("Enter a weapon to use:")
+    object1 = getWord ("Enter an object to defend yourself:")
     escaperoute1 = getWord ("Enter an escape route to block:")
     
 

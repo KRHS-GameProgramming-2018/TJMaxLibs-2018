@@ -54,18 +54,11 @@ def getNumber(prompt, minNumber, maxNumber):
             
     return word
     
-def getItem(prompt):
-    goodInput = False
+def getPlural(prompt):
+    goodInput: False
     while not goodInput:
-        word = raw_input (prompt)
-        if not isSwear(word):
-            goodInput = True
-            for charecter in word:
-                if charecter not in words:
-                    print "not an elidgable"
-                    goodInput = False
-                    break
-
+        word = raw_input(prompt)
+        
 def isSwear(word):
     swearList = ["poop",
                 "piss" ,
@@ -192,10 +185,17 @@ def isSwear(word):
                 "nutted",
                 "right nut",
                 "nuts"   ]
-                
-                
-                
-    if word in swearList:
-        return True
-    else:
-        return False
+
+
+def isPlural(word):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+           goodInput = True
+        else:
+            print "The clowns won't like those words!"
+        if word[-1] != "s":
+            goodInput = False
+            print "Word must end in s"
+    return word
