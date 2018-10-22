@@ -4,7 +4,7 @@ def playMadlibs():
     place1 = getWord("Enter a place: ")
     friend1 = getWord ("Enter a friend name: ")
     numClowns = getNumber("Enter a number: ", 2, 500)
-    clowns1 = getWord("Enter a pluaral clown name: ")
+    clowns1 = getPlural("Enter a pluaral clown name: ")
     place2 = getWord ("Enter a place inside place1: ")
     object1 = getWord ("Enter an object: ")
     verb1 = getWord ("Enter a verb ending in ing: ")
