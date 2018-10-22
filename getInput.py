@@ -185,7 +185,16 @@ def isSwear(word):
                 "left nut",
                 "nutted",
                 "right nut",
+<<<<<<< Updated upstream
                 "nuts" ]
+=======
+                "nuts"   ]
+    words = word.split(" ")
+    for w in words:
+        if w.lower() in swearList:
+            return True
+    return False
+>>>>>>> Stashed changes
 
 
 def isPlural(word):
