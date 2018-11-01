@@ -22,7 +22,7 @@ def getMenuInput():
             or response == "Three"):
             response = "3"
             goodInput = True
-        else:
+        else:   # Maybe this could be a responce for C and then a have a general error message if you don't pick a valid option
             print "Ha! You thought you could escape us! Now the Clowns are coming after you, best bet is to finish the story!"
     return response
     
@@ -58,6 +58,7 @@ def getPlural(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
+        # You should remove this incomplete version
         
 def isSwear(word):
     swearList = ["poop",
@@ -205,3 +206,5 @@ def getPlural(prompt):
             goodInput = False
             print "Word must end in s"
     return word
+
+# You should have 2 more getters
